@@ -130,16 +130,29 @@ This tutorial outlines creating a User Database and Group Policy Objects for Act
 
 <p>
 <img width="900" alt="GP7" src="https://github.com/user-attachments/assets/44552a31-91f1-42e5-ac6c-a4881d0ebca0" />
-
 </p>
 
 <p>- Notice the Suggested Value Changes based off our lockout duration. </p>
 <p>- We want this, so simply click OK. </p>
 <br />
 
+<p>
+<img width="900" alt="GP8" src="https://github.com/user-attachments/assets/4f6d968b-2ba2-438a-b546-e4d0da50014a" />
+</p>
 
+<p>- We can confirm the details of our updated Account Lockout Policy here. </p>
+<p>- I think this takes almost 90 minutes to take effect, but we are not waiting that long because we got stuff to do. </p>
+<p>- Next, we will force update the policy so the changes take effect now.</p>
+<br />
 
+<p>
+<img width="750" alt="GP9" src="https://github.com/user-attachments/assets/b558ed54-2f8b-4174-8b17-32d5502f48bb" />
+</p>
 
+<p>- Jump over to Client-1 and log in as jane_admin. (mydomain.com\jane_admin) </p>
+<p>- Open Command Prompt, enter the command gpupdate /force  and press enter.</p>
+<p>- Once the force update is complete, log out of Client-1.</p>
+<br />
 
 
 
