@@ -202,6 +202,7 @@ This tutorial outlines creating a User Database and Group Policy Objects for Act
 <p>
  - We can do a bunch of stuff with the user accounts in Active Directory Users and Computers. We can disable accounts if needed. Although that might be more of a HR thing, but you never know.</p> 
 <p>- You can disable the username that we just unlocked or pick one you don't like and vote them off the domain. 🤣</p>
+<p>- Then, try to log into Client-1 as the exiled user and see what happens.
 <p>- Figure 12 shows the long way to find the user and Figure 13 shows the express lane.</p>
 <br />
 
