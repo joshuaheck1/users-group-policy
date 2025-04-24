@@ -189,8 +189,21 @@ This tutorial outlines creating a User Database and Group Policy Objects for Act
 <p>- You will know right a way if it worked or not. I went to PowerShell after logging on and entered "whoami". See figure 11.😆  </p>
 <br />
 
-
-
+<table>
+  <tr>
+    <td>
+      <img width="1000" alt="GP14" src="https://github.com/user-attachments/assets/67b863ca-28f6-4b05-8e9e-cf7904863144" />
+    </td>
+    <td>
+      <img width="1000" alt="GP15" src="https://github.com/user-attachments/assets/82732951-dcda-47e3-b783-e585b4be4803" />
+    </td>
+  </tr>
+</table>
+<p>
+ - We can do a bunch of stuff with the user accounts in Active Directory Users and Computers. We can disable accounts if needed. Although that might be more of a HR thing, but you never know.</p> 
+<p>- You can disable the username that we just unlocked or pick one you don't like and vote them off the domain. 🤣</p>
+<p>- Figure 12 shows the long way to find the user and Figure 13 shows the express lane.</p>
+<br />
 
 
 
