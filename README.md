@@ -95,12 +95,59 @@ This tutorial outlines creating a User Database and Group Policy Objects for Act
 <h3>Section 2: Group Policy Objects</h3>
 
 <p>
-<img width="750" alt="CU6" src="https://github.com/user-attachments/assets/f2ffba9f-88ac-4ca6-b7ab-aa5003c059e5" />
+<img width="600" alt="GP2" src="https://github.com/user-attachments/assets/d6583ac0-b04e-496f-b2ff-0ada114649c7" />
 </p>
 
-<p>- Choose a random Username you like and let's use it to login to Client-1.</p>
-<p>- I chose bat.raj because... Why not? 😂</p>
+<p>- Log into DC-1 using jane_admin. (mydomain.com\jane_admin)</p>
+<p>- Once logged in, right-click the Start Menu and select Run.</p>
+<p>- Type in gpmc.msc and click OK.</p>
 <br />
+
+<p>
+<img width="750" alt="GP3" src="https://github.com/user-attachments/assets/62ddd1e6-4715-4a35-960a-b116522a93d4" />
+</p>
+
+<p>- Under mydomain.com, right-click Default Domain Policy and select Edit. See Figure 2.</p>
+<p>- This will open the Group Policy Management Editor.</p>
+<br />
+
+
+<p>
+<img width="900" alt="GP4" src="https://github.com/user-attachments/assets/84693f7b-2243-42ab-8834-ea704aa31074" />
+</p>
+
+<p>- We will need to expand a couple things to find the right path. Here we go. See Figure 3</p>
+<p>- In Group Policy Management Editor -> Computer Configuration -> Policies -> Windows Settings -> Security Settings -> Account Policies.</p>
+<p>- Now, open Account Lockout Policy.</p>
+<br />
+
+<p>
+<img width="900" alt="GP6" src="https://github.com/user-attachments/assets/6cd2af20-a548-4ac7-9645-11bad27e19c8" />
+</p>
+
+<p>- Open Account lockout durtion Properties. Check the box by Define the policy, set for 30 minutes, and click Apply and OK. </p>
+<br />
+
+<p>
+<img width="900" alt="GP7" src="https://github.com/user-attachments/assets/44552a31-91f1-42e5-ac6c-a4881d0ebca0" />
+
+</p>
+
+<p>- Notice the Suggested Value Changes based off our lockout duration. </p>
+<p>- We want this, so simply click OK. </p>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
