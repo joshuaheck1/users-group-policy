@@ -154,8 +154,15 @@ This tutorial outlines creating a User Database and Group Policy Objects for Act
 <p>- Once the force update is complete, log out of Client-1.</p>
 <br />
 
+<p>
+<img width="550" alt="GP10" src="https://github.com/user-attachments/assets/c3be8dc3-5884-412e-8f8f-d09bdcd2a2ee" />
 
+</p>
 
+<p>- Now, we are going to log into Client-1 as another user within the domain but with the wrong password. </p>
+<p>- Attempt 6 logins with the wrong password and see what happens.</p>
+<p>- YOU SHALL NOT PASS! 🧙🏽‍♂️</p>
+<br />
 
 
 
