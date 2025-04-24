@@ -88,14 +88,19 @@ This tutorial outlines creating a User Database and Group Policy Objects for Act
 
 <p>- Now we will attempt to login to Client-1 with the new user you chose.</p>
 <p>- Do not forget to specify domain in username. </p>
-<p>- mydomain.com\bat.raj -> Password1. (mydomain.com\username and Password1) </p>
+<p>- mydomain.com\bat.raj and Password1. (mydomain.com\username and Password1) </p>
 <p>- Did it work? bat.raj had zero issues logging in. 😉 </p>
 <br />
 
 <h3>Section 2: Group Policy Objects</h3>
 
+<p>
+<img width="750" alt="CU6" src="https://github.com/user-attachments/assets/f2ffba9f-88ac-4ca6-b7ab-aa5003c059e5" />
+</p>
 
-
+<p>- Choose a random Username you like and let's use it to login to Client-1.</p>
+<p>- I chose bat.raj because... Why not? 😂</p>
+<br />
 
 
 
