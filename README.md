@@ -156,7 +156,6 @@ This tutorial outlines creating a User Database and Group Policy Objects for Act
 
 <p>
 <img width="550" alt="GP10" src="https://github.com/user-attachments/assets/c3be8dc3-5884-412e-8f8f-d09bdcd2a2ee" />
-
 </p>
 
 <p>- Now, we are going to log into Client-1 as another user within the domain but with the wrong password. </p>
@@ -164,10 +163,31 @@ This tutorial outlines creating a User Database and Group Policy Objects for Act
 <p>- YOU SHALL NOT PASS! 🧙🏽‍♂️</p>
 <br />
 
+<p>
+<img width="750" alt="GP11" src="https://github.com/user-attachments/assets/b54b14ec-de92-45e6-9bed-ffe1893c9e78" />
+</p>
 
+<p>- Lets get back on DC-1 as jane_admin (mydomain.com\jane_admin) and navigate to Active Directory Users and Computers.</p>
+<p>- We need to find the user (jus.pob) that we just locked out and unlock their account. You can open _EMPLOYEES and scroll for days, depending on what the username is, or right-click mydomain.com and select Find.</p>
+<p>- This will be a lot faster.</p>
+<br />
 
+<p>
+<img width="750" alt="GP13" src="https://github.com/user-attachments/assets/88bce577-435f-4c5a-bbd0-06c57c3b2cf3" />
+</p>
 
+<p>- Enter the username and click Find Now. (jus.pob is who I'm looking for).</p>
+<p>- Click on the username when it appears in the Search results below. Under the Account tab we will find that the user's account is Locked out of the AD Domain Controller as shown in Figure 10.</p>
+<p>- Check the box next to Unlock account, click Apply, and then OK.</p>
+<br />
 
+<p>
+<img width="750" alt="GP13 1" src="https://github.com/user-attachments/assets/d21d27bf-60c2-4c6c-9de7-8c33b6756f5e" />
+</p>
+
+<p>- Now that the account has been unlocked, try log back into Client-1 as that same user. (mydomain.com\jus.pob)</p>
+<p>- You will know right a way if it worked or not. I went to PowerShell after logging on and entered "whoami". See figure 11.😆  </p>
+<br />
 
 
 
