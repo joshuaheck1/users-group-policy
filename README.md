@@ -13,13 +13,14 @@ This tutorial outlines creating a User Database and Group Policy Objects for Act
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
-- Wndows App (for MacOS)
+- Wndows App (for macOS)
 - Remote Desktop
 - Active Directory Domain Services
 - PowerShell
 
 <h2>Operating Systems Used </h2>
 
+- macOS Sequoia
 - Windows Server 2022
 - Windows 10 (21H2)
 
