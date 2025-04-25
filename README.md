@@ -232,7 +232,12 @@ This tutorial outlines creating a User Database and Group Policy Objects for Act
 <p>- We can view the logs and see how many log in attempts the user made with timestamps.</p>
 <br />
 
+<h2>Summary</h2>
 
+<p>
+This concludes our project.  We added a ton of users to the domain and setup some Group Policy Objects. Playing a Domain Admin is pretty interesting and we barley scratched the surface. Don't forget to Stop (turn off) the VMs in Azure. As always, Thank You for your time and viewing this Project. We'll see you on the next one! 😎      
+</p>
+<br />
 
 
 
