@@ -206,5 +206,38 @@ This tutorial outlines creating a User Database and Group Policy Objects for Act
 <p>- Figure 12 shows the long way to find the user and Figure 13 shows the express lane.</p>
 <br />
 
+<table>
+  <tr>
+    <td>
+      <img width="1000" alt="GP16" src="https://github.com/user-attachments/assets/731c7e88-3356-4bdd-baf5-9c41ea9a7659" />
+    </td>
+    <td>
+      <img width="1000" alt="GP17" src="https://github.com/user-attachments/assets/5a349fb3-fb8d-4b41-a61c-eeafe64a9705" />
+    </td>
+  </tr>
+</table>
+<p>
+ - We can also reset the password if needed. For example, during the account lockout scenario earlier, when we unlocked the account we would have reset the password and then had the user create a new password for security reasons. </p> 
+<p>- Same as before, Figure 14 shows the long way to find the user and Figure 15 shows the express lane.</p>
+<br />
+
+<p>
+<img width="750" alt="GP18" src="https://github.com/user-attachments/assets/8e309698-4ff9-4e39-9a2e-897e4a4d46d0" />
+</p>
+
+<p>- One last thing before we end this project. Log into Client-1 as jane_admin (mydomain.com\jane_admin) </p>
+<p>- From the Start Menu, search eventvwr.msc and Open as Admin. </p>
+<p>- This will take us to the Event Viewer and allow us to look at Security Logs.</p>
+<p>- Expand Window Logs -> right-click Security -> click Find. Type in the username that was locked out earlier. (jus.pob)</p>
+<p>- We can view the logs and see how many log in attempts the user made with timestamps.</p>
+<br />
+
+
+
+
+
+
+
+
 
 
